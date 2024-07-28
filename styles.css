@@ -128,17 +128,23 @@ section{
     line-height: 1.5em;
 }
 
+.links-container {
+    display: flex;
+    gap: 20px; /* Adjust the gap as needed */
+}
+
 .outreach{
     display: flex;
     align-items: center;
-    gap: 14px;
+    gap: 10px;
     cursor: pointer;
     width: fit-content;
-    margin-right: auto;
+    text-decoration: none;
 }
 
 .outreach i {
     transform: rotate(-45deg);
+    text-decoration: none;
 
 }
 
