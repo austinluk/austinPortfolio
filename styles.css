@@ -231,3 +231,34 @@ section{
         margin-right: auto;
     }
 }
+.profile-img {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Ensure the height matches the width for a perfect circle */
+    border-radius: 50%; /* Makes the image circular */
+    border: 2px solid #000; /* Optional: Adds a border around the image */
+}
+
+.text-container {
+    margin-top: 20px; /* Adjust the value as needed to push the text down */
+    margin-left: 20px; /* Adjust the value as needed to push the text to the right */
+}
+
+.language-container {
+    text-align: left;
+}
+
+.language-container {
+    text-align: left;
+}
+
+.language-item {
+    display: flex;
+    justify-content: space-between;
+    width: 200px; /* Adjust width as needed */
+    margin-bottom: 5px; /* Optional: Add some space between items */
+}
+
+.languages-title {
+    font-size: 1.1em; /* Makes the text bigger */
+    margin-bottom: 10px; /* Adds space at the bottom */
+}
