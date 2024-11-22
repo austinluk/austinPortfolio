@@ -192,6 +192,13 @@ section{
 
 }
 
+.project-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
 .linkContainer {
     display: flex;
     align-items: center;
@@ -216,6 +223,10 @@ section{
     font-size: 0.9em;
 }
 
+.small-lighter-text {
+    font-size: 0.5em; /* Makes the text smaller */
+    /* color: var(--secondary-color); /* Adjust this to a lighter color if needed */
+}
 @media (min-width: 640px) {
 
     .statsContainer{
